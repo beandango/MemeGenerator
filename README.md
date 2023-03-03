@@ -1,14 +1,26 @@
 # MemeGenerator
 
-This is a very short and simple script I made that goes through a specified folder path and writes all the individial file
+This is a very short and simple script I made that goes through a specified folder path and writes all the individual file
 paths to a .txt file. I use this in combination with Mix It Up to create a "random meme generator" for my twitch streams.
 
 Language: python
+
 Uses: python-dotenv, os
 
 super simple :)
 
-### Overly Detailed Explanation of How to Make Random Meme Channel Point Redeems for Twitch
+## Before we get started:
+
+Just to make sure we're on the same page, you're gonna need a way of actually running the script.
+
+I personally use vscode, youre gonna have to do some googling to set that up if you've never touched code before.
+
+[Here's a decent guide for setting up python with VScode](https://code.visualstudio.com/docs/python/python-tutorial)
+Furthermore, if you're using dotenv, you'll need to do something like `pip install python-dotenv` to install that package.
+
+If you have no idea what that means, just remove the entirety of lines 2 and 4 of the DataPath.py and follow the rest of the guide as written
+
+## Overly Detailed Explanation of How to Make Random Meme Channel Point Redeems for Twitch
 
 #### 1. Get [Mix it Up](https://mixitupapp.com/)
 #### 2. Connect your Twitch account to Mix It Up (its pretty self-explanatory, just follow the prompts and stuff)
